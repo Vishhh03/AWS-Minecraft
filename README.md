@@ -1,6 +1,6 @@
 # 🛠️ Host Your Own Minecraft Server on AWS EC2 (Linux)
 
-A step-by-step guide to setting up a **personal Minecraft server** on an **Amazon EC2 instance** using the command line. Perfect for learning **basic cloud infrastructure** and **Linux administration**—and having fun while you're at it!
+A step-by-step guide to setting up a **personal Minecraft server** on an **Amazon EC2 instance** using the command line.
 
 ![Minecraft Banner](Assets/Minecraft-Bedrock-Java-Edition.webp)
 
@@ -33,8 +33,7 @@ This guide walks you through the process of creating a Minecraft server using:
 ## ✅ Prerequisites
 
 - ✅ AWS Account
-- ✅ Minecraft: Java Edition (purchased)
-- ✅ Basic familiarity with a terminal
+- ✅ Minecraft: Java Edition (Bedrock Edition Tutorial Coming Soon!)
 
 ---
 
