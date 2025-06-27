@@ -169,18 +169,11 @@ screen -r minecraft
 
 ## 🌐 Author
 
-Made with ❤️ by \[YourNameHere]
+Made with ❤️ by Vishal Shaji
 Feel free to fork or contribute!
 
 ---
 
-## 📸 Showcase
-
-> *(Add your screenshots or in-game builds here!)*
-
-![In-Game Screenshot](https://your-screenshot-url.com)
-
----
 
 ## 🧠 Learn More
 
