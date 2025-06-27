@@ -1,8 +1,3 @@
-Here’s a **GitHub README.md** version of your Minecraft Server on AWS EC2 guide, properly formatted with Markdown for a polished and professional look:
-
----
-
-````markdown
 # 🛠️ Host Your Own Minecraft Server on AWS EC2 (Linux)
 
 A step-by-step guide to setting up a **personal Minecraft server** on an **Amazon EC2 instance** using the command line. Perfect for learning **basic cloud infrastructure** and **Linux administration**—and having fun while you're at it!
@@ -77,7 +72,7 @@ Click **Launch Instance**!
    ```bash
    chmod 400 your-key-name.pem
    ssh -i "your-key-name.pem" ubuntu@YOUR_PUBLIC_IP
-````
+
 
 ---
 
