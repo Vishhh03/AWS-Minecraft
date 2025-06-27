@@ -2,9 +2,7 @@
 
 A step-by-step guide to setting up a **personal Minecraft server** on an **Amazon EC2 instance** using the command line. Perfect for learning **basic cloud infrastructure** and **Linux administration**—and having fun while you're at it!
 
-![Minecraft Banner](https://your-image-url-here.com)
-
-> *(Take a screenshot of your server running or a cool in-game build and replace the banner image URL above)*
+![Minecraft Banner](Assets/Minecraft-Bedrock-Java-Edition.webp)
 
 ---
 
