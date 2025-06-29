@@ -14,6 +14,7 @@ A step-by-step guide to setting up a **personal Minecraft server** on an **Amazo
 - [📦 Step 3: Installing Server Software](#-step-3-installing-server-software)
 - [▶️ Step 4: Running Your Minecraft Server](#️-step-4-running-your-minecraft-server)
 - [🎮 Step 5: Connecting to Your Server](#-step-5-connecting-to-your-server)
+- [📺 Console Access](#-console-access)
 - [💸 Cost Management & Tips](#-cost-management--tips)
 - [🛠️ Troubleshooting](#️-troubleshooting)
 
@@ -84,8 +85,8 @@ sudo apt update && sudo apt upgrade -y
 ### Install Java:
 
 *Java Version depends on the Minecraft Version you want to host.*
-- * Minecraft 1.20.4 and below: Compatible with Java 17.*
-- * Minecraft 1.20.5 and above: Require Java 21.*
+- Minecraft 1.20.4 and below: Compatible with Java 17.
+- Minecraft 1.20.5 and above: Require Java 21.
 
 #### Java Version 17
 
@@ -110,7 +111,8 @@ cd minecraft-server
 
 ### Download Minecraft Server:
 
-Go to the [official server download page](https://www.minecraft.net/en-us/download/server), copy the `.jar` link, and run:
+Go to the [official server download page](https://www.minecraft.net/en-us/download/server), copy the `.jar` link by right-clicking the download hyperlink ![Server Download Screenshot](Assets/JarDownload/png)
+, and run:
 
 ```bash
 wget PASTE_THE_DOWNLOAD_LINK_HERE
@@ -123,8 +125,10 @@ wget PASTE_THE_DOWNLOAD_LINK_HERE
 ### First Run (will fail to accept EULA):
 
 ```bash
-java -Xmx1024M -Xms1024M -jar server.jar nogui
+java -Xmx2048M -Xms1024M -jar server.jar nogui
 ```
+- Xmx2048M: Sets the maximum RAM to 2048 MB (2 GB), adjust according to the instance RAM size, keep it below or as the instance's RAM Size.
+- Xms1024M: Sets the initial RAM to 1024 MB (1 GB), adjust according to the instance RAM size, always keep it below Xms/Maximum's RAM allocation.
 
 ### Accept EULA:
 
@@ -139,7 +143,7 @@ nano eula.txt
 ```bash
 sudo apt install screen -y
 screen -S minecraft
-java -Xmx1024M -Xms1024M -jar server.jar nogui
+java -Xmx2048M -Xms1024M -jar server.jar nogui
 ```
 
 To detach: `Ctrl + A`, then `D`
@@ -160,12 +164,16 @@ screen -r minecraft
 
 ---
 
+## 📺 Console Access
+
+1. Run the server and reattach it as shown above. Running the server without screen or persistence lets you enter command directly but you without the option to detach it from terminal.
+2. Enter the command directly in the terminal. 
+
 ## 💸 Cost Management & Tips
 
 * Stop your EC2 instance when not in use to save costs.
 * Use `t3.medium` for balanced performance and pricing.
 * Set up **CloudWatch Alarms** to monitor usage.
-* Consider EBS snapshot backups for world saves.
 
 ---
 
