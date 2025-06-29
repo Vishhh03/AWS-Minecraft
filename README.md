@@ -168,6 +168,8 @@ screen -r minecraft
 1. Run the server and reattach it as shown above. Running the server without screen or persistence lets you enter command directly but you without the option to detach it from terminal.
 2. Enter the command directly in the terminal. 
 
+---
+
 ## 💸 Cost Management & Tips
 
 * Stop your EC2 instance when not in use to save costs.
