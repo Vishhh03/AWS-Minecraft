@@ -111,8 +111,7 @@ cd minecraft-server
 
 ### Download Minecraft Server:
 
-Go to the [official server download page](https://www.minecraft.net/en-us/download/server), copy the `.jar` link by right-clicking the download hyperlink ![Server Download Screenshot](Assets/JarDownload/png)
-, and run:
+Go to the [official server download page](https://www.minecraft.net/en-us/download/server), ![Server Download Screenshot](Assets/JarDownload.png) copy the `.jar` link by right-clicking the download hyperlink, and run:
 
 ```bash
 wget PASTE_THE_DOWNLOAD_LINK_HERE
