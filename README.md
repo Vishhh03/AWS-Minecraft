@@ -81,10 +81,23 @@ Click **Launch Instance**!
 sudo apt update && sudo apt upgrade -y
 ```
 
-### Install Java (Java 17):
+### Install Java:
+
+*Java Version depends on the Minecraft Version you want to host.*
+- * Minecraft 1.20.4 and below: Compatible with Java 17.*
+- * Minecraft 1.20.5 and above: Require Java 21.*
+
+#### Java Version 17
 
 ```bash
 sudo apt install openjdk-17-jre-headless -y
+java -version
+```
+
+#### Java Version 21
+
+```bash
+sudo apt install openjdk-21-jre-headless -y
 java -version
 ```
 
